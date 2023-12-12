@@ -34,6 +34,5 @@ if [ ! -d "eurogamer-client" ]; then
   git clone https://github.com/alexandrubb23/eurogamer-client.git
 fi
 cd eurogamer-client
-# Add commands to start the client project, e.g., npm install and npm start
-npm i
-npm run dev
+./start.sh
+
